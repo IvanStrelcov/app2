@@ -1,6 +1,6 @@
 import 'bootstrap/less/bootstrap.less';
 import 'font-awesome/less/font-awesome.less';
-import 'simple-line-icons/less/simple-line-icons.less';
+// import 'simple-line-icons/less/simple-line-icons.less';
 import './assets/css/modern.min.css'; // @TODO: rewrite to less
 import 'animate.css/animate.css';
 import './assets/css/style.css';

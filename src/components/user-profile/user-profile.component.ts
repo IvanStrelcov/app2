@@ -5,7 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 // import template from './user-profile.html';
 @Component({
   selector: 'user-profile',
-  templateUrl: './user-profile.html',
+  templateUrl: 'src/components/user-profile/user-profile.html',
 })
 export class UserProfileComponent implements OnInit{
   @Input()

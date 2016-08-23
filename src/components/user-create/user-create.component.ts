@@ -10,7 +10,7 @@ const URL = 'https://api.cloudinary.com/v1_1/dv5qpskjz/image/upload';
 // import template from './user-create.html';
 @Component({
   selector: 'user-create',
-  templateUrl: './user-create.html',
+  templateUrl: 'src/components/user-create/user-create.html',
   styles: [`
     .my-drop-zone { border: dotted 3px lightgray; }
     .nv-file-over { border: dotted 3px red; }

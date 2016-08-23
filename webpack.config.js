@@ -41,7 +41,8 @@ module.exports = {
     new ExtractTextPlugin('[name].css'),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
-      favicon: 'src/logo.png'
+      favicon: 'src/logo.png',
+      chunksSortMode: 'dependency'
     })
   ],
 

@@ -7,7 +7,7 @@ import { UsersListService } from './users-list.service';
 
 @Component({
   selector: 'users-list',
-  templateUrl: './users-list.html'
+  templateUrl: 'src/components/users-list/users-list.html'
 })
 export class UsersListComponent {
   users: any;

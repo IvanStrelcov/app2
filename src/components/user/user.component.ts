@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'user',
-  templateUrl: './user.html'
+  templateUrl: 'src/components/user/user.html'
 })
 export class UserComponent implements OnInit{
   @Input()

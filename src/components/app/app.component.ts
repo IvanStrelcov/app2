@@ -6,7 +6,7 @@ import { UsersListComponent } from '../users-list';
 // import template from './app.html';
 @Component({
   selector: 'app',
-  templateUrl: './app.html'
+  templateUrl: 'src/components/app/app.html'
 })
 
 export class AppComponent implements OnInit {
