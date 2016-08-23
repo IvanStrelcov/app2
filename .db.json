@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "image": "src/assets/img/a2.jpg",
+      "position": "Graphics designer",
+      "name": "John Smith",
+      "company_adress": "Riviera State 32/106",
+      "company": "Twitter, Inc.",
+      "phone": "(123) 456-7890",
+      "adress": {
+        "home_number": 795,
+        "street": "Folsom Ave",
+        "apartment": "Suite 600",
+        "city": "San Francisco",
+        "code": "CA 94107"
+      }
+    },
+    {
+      "id": 2,
+      "image": "src/assets/img/a3.jpg",
+      "position": "Marketing manager",
+      "name": "Monica Smith",
+      "company_adress": "Riviera State 32/106",
+      "company": "Twitter, Inc.",
+      "phone": "(123) 456-7890",
+      "adress": {
+        "home_number": 795,
+        "street": "Folsom Ave",
+        "apartment": "Suite 600",
+        "city": "San Francisco",
+        "code": "CA 94107"
+      }
+    },
+    {
+      "id": 3,
+      "image": "src/assets/img/a4.jpg",
+      "position": "Sales manager",
+      "name": "Michael Zimber",
+      "company_adress": "Riviera State 32/106",
+      "company": "Twitter, Inc.",
+      "phone": "(123) 456-7890",
+      "adress": {
+        "home_number": 795,
+        "street": "Folsom Ave",
+        "apartment": "Suite 600",
+        "city": "San Francisco",
+        "code": "CA 94107"
+      }
+    },
+    {
+      "id": 4,
+      "image": "src/assets/img/a5.jpg",
+      "position": "Sales manager",
+      "name": "Sandra Smith",
+      "company_adress": "Riviera State 32/106",
+      "company": "Twitter, Inc.",
+      "phone": "(123) 456-7890",
+      "adress": {
+        "home_number": 795,
+        "street": "Folsom Ave",
+        "apartment": "Suite 600",
+        "city": "San Francisco",
+        "code": "CA 94107"
+      }
+    }
+  ]
+}

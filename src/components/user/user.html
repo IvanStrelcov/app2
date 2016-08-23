@@ -1,0 +1,23 @@
+<div class="contact-box">
+  <a (click)="gotoDetail()">
+    <div class="col-sm-4">
+      <div class="text-center">
+        <img alt="image" class="img-circle m-t-xs img-responsive" width="128px" height="128px" [src]="user.image">
+        <div class="m-t-xs font-bold">{{user.position}}</div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <a>{{user.id}} {{user.name}}</a>
+      <h3><strong>{{user.name}}</strong></h3>
+      <p><i class="fa fa-map-marker"></i><span>{{user.company_adress}}</span></p>
+      <address>
+              <strong>{{user.company}}</strong><br />
+              <span>{{user.adress.home_number}}</span>&nbsp;<span>{{user.adress.street}}</span>,<br />
+              <span>{{user.adress.apartment}}</span>&nbsp;<span>{{user.adress.city}}</span>,<br />
+              <span>{{user.adress.code}}</span><br />
+              <abbr title="Phone">P:</abbr>&nbsp;<span>{{user.phone}}</span>
+          </address>
+    </div>
+    <div class="clearfix"></div>
+  </a>
+</div>
