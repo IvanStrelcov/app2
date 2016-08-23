@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { HeaderComponent } from '../header';
 import { UsersListComponent } from '../users-list';
-const template = require('./app.html');
+import template from './app.html';
 @Component({
   selector: 'app',
   template

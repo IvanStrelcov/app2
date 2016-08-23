@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { UserProfileService } from './user-profile.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
-const template = require('./user-profile.html');
+import template from './user-profile.html';
 @Component({
   selector: 'user-profile',
   template,

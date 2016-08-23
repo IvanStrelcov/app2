@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-const template = require('./header.html');
+import template from './header.html';
 @Component({
   selector: 'header',
   template

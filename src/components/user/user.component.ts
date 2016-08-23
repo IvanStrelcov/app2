@@ -1,7 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
-const template = require('./user.html');
+import template from './user.html';
+
 @Component({
   selector: 'user',
   template

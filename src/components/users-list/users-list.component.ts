@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { UsersListService } from './users-list.service';
 
-const template = require('./users-list.html');
+import template from './users-list.html';
 
 @Component({
   selector: 'users-list',
