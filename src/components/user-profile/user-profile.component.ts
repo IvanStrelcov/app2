@@ -2,10 +2,10 @@ import { Component, OnInit, Input } from '@angular/core';
 import { UserProfileService } from './user-profile.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import template from './user-profile.html';
+// import template from './user-profile.html';
 @Component({
   selector: 'user-profile',
-  template,
+  templateUrl: './user-profile.html',
 })
 export class UserProfileComponent implements OnInit{
   @Input()

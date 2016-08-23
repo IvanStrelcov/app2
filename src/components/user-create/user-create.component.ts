@@ -7,10 +7,10 @@ import {FILE_UPLOAD_DIRECTIVES, FileUploader} from 'ng2-file-upload';
 
 const URL = 'https://api.cloudinary.com/v1_1/dv5qpskjz/image/upload';
 
-import template from './user-create.html';
+// import template from './user-create.html';
 @Component({
   selector: 'user-create',
-  template,
+  templateUrl: './user-create.html',
   styles: [`
     .my-drop-zone { border: dotted 3px lightgray; }
     .nv-file-over { border: dotted 3px red; }

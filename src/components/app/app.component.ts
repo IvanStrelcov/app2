@@ -3,10 +3,10 @@ import { Component, OnInit } from '@angular/core';
 
 import { HeaderComponent } from '../header';
 import { UsersListComponent } from '../users-list';
-import template from './app.html';
+// import template from './app.html';
 @Component({
   selector: 'app',
-  template
+  templateUrl: './app.html'
 })
 
 export class AppComponent implements OnInit {

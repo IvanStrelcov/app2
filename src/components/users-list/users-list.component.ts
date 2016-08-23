@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { UsersListService } from './users-list.service';
 
-import template from './users-list.html';
+// import template from './users-list.html';
 
 @Component({
   selector: 'users-list',
-  template
+  templateUrl: './users-list.html'
 })
 export class UsersListComponent {
   users: any;

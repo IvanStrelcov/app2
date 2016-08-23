@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
-import template from './user.html';
+// import template from './user.html';
 
 @Component({
   selector: 'user',
-  template
+  templateUrl: './user.html'
 })
 export class UserComponent implements OnInit{
   @Input()
